@@ -17,6 +17,8 @@ Adds an optional prefix to user messages when the chat has been idle longer than
 3. Paste your Git repository URL for this extension and install it.
 4. Enable **Idle Prefix** in the Extensions list.
 
+> Note: the UI installer requires `git` to be available on your system.
+
 ### Manual install
 
 Clone this repo into your extensions folder:

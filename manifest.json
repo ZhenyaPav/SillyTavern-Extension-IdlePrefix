@@ -9,5 +9,6 @@
   "author": "zhenyapav",
   "version": "1.0.0",
   "auto_update": true,
-  "minimum_client_version": "1.0.0"
+  "minimum_client_version": "1.0.0",
+  "homepage": "https://github.com/ZhenyaPav/SillyTavern-Extension-IdlePrefix"
 }
