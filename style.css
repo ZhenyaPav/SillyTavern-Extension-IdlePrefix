@@ -1,0 +1,6 @@
+#idle_prefix_settings .idle-prefix-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 8px;
+}
