@@ -1,7 +1,7 @@
 import { extension_settings, renderExtensionTemplateAsync, getContext } from '../../../extensions.js';
 
 const MODULE_KEY = 'idle_prefix';
-const EXTENSION_NAME = 'third-party/Extension-Idle-Prefix';
+const EXTENSION_NAME = 'third-party/SillyTavern-Extension-IdlePrefix';
 const DEFAULT_SETTINGS = {
     threshold_minutes: 5,
     prefix_template: '*{{idle_duration}} passed*',
