@@ -77,7 +77,7 @@ async function maybeAddPrefix(messageId) {
     prefixText = context.substituteParams(prefixText);
 
     const originalText = String(message.mes ?? '');
-    message.mes = `${prefixText}${originalText ? '\n' : ''}${originalText}`;
+    message.mes = `${prefixText}${originalText ? ' ' : ''}${originalText}`;
 
     const messageElement = document.querySelector(`.mes[mesid="${messageId}"]`);
     if (messageElement) {
